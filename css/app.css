@@ -8130,4 +8130,7 @@ button.close {
   overflow: visible;
   clip: auto; }
 
+.navbar .fa {
+  font-size: 18px; }
+
 /*# sourceMappingURL=app.css.map */
