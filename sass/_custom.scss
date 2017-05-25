@@ -1,5 +1,9 @@
 .navbar {
   margin-bottom: 0;
+  .a {
+    // set font color using function set-text-color based on background color
+    color: set-text-color($main-color) !important;
+  }
   .fa {
     font-size: 18px;
   }
@@ -23,6 +27,8 @@
   padding: 30px 0;
   text-align: center;
   background: $main-color;
+  // set font color using function set-text-color based on background color
+  color: set-text-color($main-color);
   .fa {
     font-size: $icon-size;
   }

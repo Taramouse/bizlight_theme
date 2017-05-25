@@ -1,0 +1,8 @@
+// Helper funtion to change font color depending on background color
+@function set-text-color($color) {
+  @if( lightness($color) > 50 ) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
