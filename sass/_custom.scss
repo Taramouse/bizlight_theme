@@ -1,6 +1,6 @@
 .navbar {
   margin-bottom: 0;
-  .a {
+  a {
     // set font color using function set-text-color based on background color
     color: set-text-color($main-color) !important;
   }
@@ -53,6 +53,7 @@
   color: set-text-color($main-color);
   .btn-primary {
     background: darken($main-color, 10%);
+    color: set-text-color($main-color);
   }
 }
 
