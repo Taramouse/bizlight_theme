@@ -21,6 +21,12 @@
     opacity: 0.8;
     padding: 20px 30px 30px 30px;
   }
+  .btn-primary {
+    // set button background color 10% darker than background color
+    background: darken($main-color, 10%);
+    // set font color using function set-text-color based on background color
+    color: set-text-color($main-color);
+  }
 }
 
 .section-a {
@@ -72,8 +78,3 @@ footer {
   background: darken($main-color, 10%);
   color: set-text-color($main-color);
 }
-
-
-
-
-
